@@ -3,9 +3,9 @@ package com.example.convidados
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class GuestFormMainActivity : AppCompatActivity() {
+class GuestFormActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_guest_form_main)
+        setContentView(R.layout.activity_guest_form)
     }
 }

@@ -27,12 +27,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.appBarMain.fab.setOnClickListener { view ->
 
-            startActivity(Intent(applicationContext, GuestFormMainActivity::class.java))
+            startActivity(Intent(applicationContext, GuestFormActivity::class.java))
 
         }
         setUpNavigation()
     }
-
 
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
