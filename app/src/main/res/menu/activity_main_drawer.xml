@@ -7,14 +7,14 @@
         <item
             android:id="@+id/nav_all_guests"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Todos os Convidados" />
+            android:title="@string/menu_all_guests" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_present"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="@string/menu_present" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_absent"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/menu_absent" />
     </group>
 </menu>
