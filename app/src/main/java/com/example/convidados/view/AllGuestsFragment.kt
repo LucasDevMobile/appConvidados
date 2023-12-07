@@ -1,4 +1,4 @@
-package com.example.convidados.ui
+package com.example.convidados.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.convidados.databinding.FragmentAllGuestsBinding
+import com.example.convidados.viewmodel.AllGuestsViewModel
 
 
 class AllGuestsFragment : Fragment() {
