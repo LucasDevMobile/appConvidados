@@ -26,7 +26,6 @@ class GuestRepository private constructor(context: Context) {
 
         return try {
             val db = guestDataBase.writableDatabase
-
             val presence = if (guest.presence) 1 else 0
             val values = ContentValues()
             values.put(DataBaseConstants.GUEST.COLUMNS.PRESENCE,presence)
